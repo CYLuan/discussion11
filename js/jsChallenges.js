@@ -1,4 +1,5 @@
 function challenge1(event) {
-    console.log(event.target);
+
+    console.log(document.querySelector('#subscribe').checked);
     console.log('in the function');}
-ocument.querySelector('#subscribe').addEventListener('click', challenge1);
+document.querySelector('#subscribe').addEventListener('click', challenge1);
